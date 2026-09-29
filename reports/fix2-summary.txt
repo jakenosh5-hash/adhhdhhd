@@ -1,0 +1,3 @@
+javac=PASS classes=8
+d8=PASS dex=41156
+apktool=PASS

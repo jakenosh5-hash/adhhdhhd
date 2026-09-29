@@ -1,0 +1,37 @@
+=== package ===
+package:/data/app/~~ogXElie1idD6UsUPDy7cCg==/com.ram.ledger.deepseek-Y5qyl4ex8iSQHDz2Q5duCQ==/base.apk
+pm_path_rc=0
+=== force stop ===
+force_rc=0
+=== launch ===
+Starting: Intent { cmp=com.ram.ledger.deepseek/.ram.RamHubActivity }
+
+Exception occurred while executing 'start':
+java.lang.SecurityException: Permission Denial: starting Intent { flg=0x10000000 cmp=com.ram.ledger.deepseek/.ram.RamHubActivity } from null (pid=20001, uid=2000) not exported from uid 10193
+	at com.android.server.wm.ActivityTaskSupervisor.checkStartAnyActivityPermission(ActivityTaskSupervisor.java:1136)
+	at com.android.server.wm.ActivityStarter.executeRequest(ActivityStarter.java:1069)
+	at com.android.server.wm.ActivityStarter.execute(ActivityStarter.java:742)
+	at com.android.server.wm.ActivityTaskManagerService.startActivityAndWait(ActivityTaskManagerService.java:1548)
+	at com.android.server.am.ActivityManagerService.startActivityAndWait(ActivityManagerService.java:3257)
+	at com.android.server.am.ActivityManagerShellCommand.runStartActivity(ActivityManagerShellCommand.java:719)
+	at com.android.server.am.ActivityManagerShellCommand.onCommand(ActivityManagerShellCommand.java:233)
+	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
+	at android.os.ShellCommand.exec(ShellCommand.java:38)
+	at com.android.server.am.ActivityManagerService.onShellCommand(ActivityManagerService.java:9697)
+	at android.os.Binder.shellCommand(Binder.java:1068)
+	at android.os.Binder.onTransact(Binder.java:888)
+	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:5267)
+	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2720)
+	at android.os.Binder.execTransactInternal(Binder.java:1344)
+	at android.os.Binder.execTransact(Binder.java:1275)
+start_rc=255
+=== focused activity ===
+  mFocusedApp=ActivityRecord{66a47c4 u0 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t10}
+=== fatal / verification errors ===
+I/ActivityManager(11032): Force stopping com.ram.ledger.deepseek appid=10193 user=0: from pid 19985
+W/ActivityTaskManager(11032): Permission Denial: starting Intent { flg=0x10000000 cmp=com.ram.ledger.deepseek/.ram.RamHubActivity } from null (pid=20001, uid=2000) not exported from uid 10193
+I/ActivityTaskManager(11032): START u0 {flg=0x10000000 cmp=com.ram.ledger.deepseek/.ram.RamHubActivity} with LAUNCH_MULTIPLE from uid 2000 result code=0
+V/StorageManagerService(11032): Package com.ram.ledger.deepseek does not have legacy storage
+I/Telecom (11032): CarModeTracker: Package com.ram.ledger.deepseek is not tracked.: SSH.oR@AKs🔒
+I/RollbackManager(11032): broadcast=ACTION_PACKAGE_FULLY_REMOVED pkg=com.ram.ledger.deepseek
+=== screen dump markers ===

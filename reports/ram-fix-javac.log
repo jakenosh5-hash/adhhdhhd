@@ -1,0 +1,13 @@
+/home/ubuntu/deepseek-hybrid-work/source/main/java/com/ram/ledger/deepseek/bridge/DeepSeekNativeBridge.java:63: warning: [rawtypes] found raw type: Class
+        Object collector = Proxy.newProxyInstance(collectorType.getClassLoader(), new Class[]{collectorType}, (proxy, method, args) -> {
+                                                                                      ^
+  missing type arguments for generic class Class<T>
+  where T is a type-variable:
+    T extends Object declared in class Class
+/home/ubuntu/deepseek-hybrid-work/source/main/java/com/ram/ledger/deepseek/bridge/DeepSeekNativeBridge.java:70: warning: [rawtypes] found raw type: Class
+        Object continuation = Proxy.newProxyInstance(continuationType.getClassLoader(), new Class[]{continuationType}, (proxy, method, args) -> {
+                                                                                            ^
+  missing type arguments for generic class Class<T>
+  where T is a type-variable:
+    T extends Object declared in class Class
+2 warnings

@@ -1,0 +1,65 @@
+=== current files ===
+/home/ubuntu/deepseek-hybrid-work/ram-life-os-native-final.apk 23069459 bytes 2026-09-29 22:28:19.199368853 +0000
+/home/ubuntu/deepseek-hybrid-work/hybrid-unsigned.apk 22982630 bytes 2026-09-29 22:28:18.063368776 +0000
+/home/ubuntu/deepseek-hybrid-work/hybrid-aligned.apk 22983262 bytes 2026-09-29 22:28:18.199368785 +0000
+9588e21b75922d5abeed0c79a2447b5681ac2b2ef77e4552fa90654bba1d28c5  /home/ubuntu/deepseek-hybrid-work/ram-life-os-native-final.apk
+ce678ee417a6943d1191291f97a4a74a029791791cc22ce0bf48264a6d1a1a60  /home/ubuntu/deepseek-hybrid-work/hybrid-unsigned.apk
+d498fd6a1e9c8a5292d033dc67def05caf3c86f978708c98c7829a59fb72bc3a  /home/ubuntu/deepseek-hybrid-work/hybrid-aligned.apk
+=== zip ===
+    testing: META-INF/MANIFEST.MF     OK
+No errors detected in compressed data of /home/ubuntu/deepseek-hybrid-work/ram-life-os-native-final.apk.
+=== alignment ===
+22125342 assets/mobile_report_inject.js (OK - compressed)
+22139971 assets/vcs_info.txt (OK - compressed)
+22140097 assets/vendors.js (OK - compressed)
+22857294 assets/viewer.html (OK - compressed)
+22857718 assets/viewer.js (OK - compressed)
+22859850 DebugProbesKt.bin (OK - compressed)
+22860695 googleid.properties (OK - compressed)
+22860817 play-services-auth-api-phone.properties (OK - compressed)
+22860957 play-services-auth-base.properties (OK - compressed)
+22861088 play-services-auth.properties (OK - compressed)
+22861211 play-services-base.properties (OK - compressed)
+22861340 play-services-basement.properties (OK - compressed)
+22861468 play-services-fido.properties (OK - compressed)
+22861594 play-services-tasks.properties (OK - compressed)
+22861727 okhttp3/internal/publicsuffix/NOTICE (OK - compressed)
+22861969 okhttp3/internal/publicsuffix/publicsuffixes.gz (OK - compressed)
+22903442 META-INF/LEDGER.SF (OK - compressed)
+22941362 META-INF/LEDGER.RSA (OK - compressed)
+22942492 META-INF/MANIFEST.MF (OK - compressed)
+Verification successful
+=== signatures ===
+Verifies
+Verified using v1 scheme (JAR signing): true
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: CN=DeepSeek Ledger Test, O=Local Test, C=SY
+Signer #1 certificate SHA-256 digest: eabf458f07ca12e37e79eae9e0eff909f71e07713b8e50e9c59a1139ad2120e9
+Signer #1 certificate SHA-1 digest: 9c420a171efb0a9bccd075b692717985182f58b0
+Signer #1 certificate MD5 digest: 4c0a12db9cc09cd0028dadd3a7b19667
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 2048
+Signer #1 public key SHA-256 digest: e42830d8da4be29b7ca6e75ffc9251206e8a1afd1a44bc7513b9163efe8d0eec
+Signer #1 public key SHA-1 digest: 79e74b6010e109414ed784e3e9aff1fec62cf99a
+Signer #1 public key MD5 digest: 8234a208012b337181dcc3678acbf59e
+WARNING: META-INF/services/ab5 not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/services/ba3 not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/services/bb4 not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/services/d86 not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/services/ie not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/services/jo7 not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/services/n86 not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/services/tba not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/services/ur0 not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/services/zw5 not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+=== dex list ===
+classes.dex
+classes2.dex
+classes3.dex
+classes4.dex
+=== stage raw dex ===

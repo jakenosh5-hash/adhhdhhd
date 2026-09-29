@@ -1,0 +1,27 @@
+Success
+uninstall_rc=0
+Serving...
+All files should be loaded. Notifying the device.
+Performing Incremental Install
+Success
+Install command complete in 53943 ms
+install_rc=0
+Starting: Intent { cmp=com.ram.ledger.deepseek/.ram.RamHubActivity }
+Status: timeout
+LaunchState: UNKNOWN (-1)
+Activity: com.ram.ledger.deepseek/.ram.RamHubActivity
+WaitTime: 26091
+Complete
+start_rc=0
+=== pid ===
+21471
+=== log errors and RAM markers ===
+W/ziparchive(21471): Unable to open '/data/app/~~ZWMEVHQ9MNymtt5RZiMeHA==/com.ram.ledger.deepseek-rR_vh5-zvVl5dDpX1gXAZw==/base.dm': No such file or directory
+W/ziparchive(21471): Unable to open '/data/app/~~ZWMEVHQ9MNymtt5RZiMeHA==/com.ram.ledger.deepseek-rR_vh5-zvVl5dDpX1gXAZw==/base.dm': No such file or directory
+I/SafetyLabelChangedBroadcastReceiver(15059): received broadcast packageName: com.ram.ledger.deepseek, current user: UserHandle{0}, packageChangeEvent: NEW_INSTALL, intent user: UserHandle{0}
+D/nativeloader(21471): Configuring clns-6 for other apk /data/app/~~ZWMEVHQ9MNymtt5RZiMeHA==/com.ram.ledger.deepseek-rR_vh5-zvVl5dDpX1gXAZw==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~ZWMEVHQ9MNymtt5RZiMeHA==/com.ram.ledger.deepseek-rR_vh5-zvVl5dDpX1gXAZw==/lib/arm64:/data/app/~~ZWMEVHQ9MNymtt5RZiMeHA==/com.ram.ledger.deepseek-rR_vh5-zvVl5dDpX1gXAZw==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.ram.ledger.deepseek
+V/GraphicsEnvironment(21471): ANGLE GameManagerService for com.ram.ledger.deepseek: false
+V/GraphicsEnvironment(21471): com.ram.ledger.deepseek is not listed in per-application setting
+D/Launcher.Model(11461): package removed received com.ram.ledger.deepseek
+D/PackageUpdatedTask(11461): Removing app iconcom.ram.ledger.deepseek
+D/ModelWriter(11461): removing items from db . Reason: [removed because the corresponding package or component is removed. mOp=3 removedPackages=[com.ram.ledger.deepseek] removedComponents=[]]

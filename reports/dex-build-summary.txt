@@ -1,0 +1,3 @@
+dex=/home/ubuntu/deepseek-hybrid-work/new-dex/classes.dex
+class_inputs=8
+smali_files=34

@@ -1,0 +1,2 @@
+javac=PASS classes=8
+d8=PASS dex_bytes=39240

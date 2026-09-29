@@ -1,0 +1,8 @@
+=== installed path ===
+package:/data/app/~~ogXElie1idD6UsUPDy7cCg==/com.ram.ledger.deepseek-Y5qyl4ex8iSQHDz2Q5duCQ==/base.apk
+=== pid ===
+20267
+=== recent app errors ===
+W/ledger.deepseek(20267): type=1400 audit(0.0:37): avc:  denied  { getattr } for  path="/dev/pmsg0" dev="tmpfs" ino=408 scontext=u:r:untrusted_app:s0:c193,c256,c512,c768 tcontext=u:object_r:pmsg_device:s0 tclass=chr_file permissive=0 app=com.ram.ledger.deepseek
+I/MMKV    (20267): <MMKV.cpp:225::initializeMMKV> root dir: /data/user/0/com.ram.ledger.deepseek/files/mmkv
+=== capped test complete ===

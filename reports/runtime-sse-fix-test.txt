@@ -1,0 +1,28 @@
+Success
+uninstall_rc=0
+Serving...
+All files should be loaded. Notifying the device.
+Performing Incremental Install
+Success
+Install command complete in 41917 ms
+install_rc=0
+Starting: Intent { cmp=com.ram.ledger.deepseek/.ram.RamHubActivity }
+Status: timeout
+LaunchState: UNKNOWN (-1)
+Activity: com.ram.ledger.deepseek/.ram.RamHubActivity
+WaitTime: 26450
+Complete
+start_rc=0
+=== pid ===
+23561
+=== ui dump ===
+ui_dump_rc=124
+=== errors ===
+W/ledger.deepseek(23561): Verification of void com.ram.ledger.deepseek.App.onCreate() took 151.754ms (1034.57 bytecodes/s) (7120B approximate peak alloc)
+I/SafetyLabelChangedBroadcastReceiver(15059): received broadcast packageName: com.ram.ledger.deepseek, current user: UserHandle{0}, packageChangeEvent: NEW_INSTALL, intent user: UserHandle{0}
+E/ActivityManager(11032):   56% 23561/com.ram.ledger.deepseek: 35% user + 20% kernel / faults: 1275 minor
+W/ledger.deepseek(23561): type=1400 audit(0.0:54): avc:  denied  { getattr } for  path="/dev/pmsg0" dev="tmpfs" ino=408 scontext=u:r:untrusted_app:s0:c195,c256,c512,c768 tcontext=u:object_r:pmsg_device:s0 tclass=chr_file permissive=0 app=com.ram.ledger.deepseek
+I/MMKV    (23561): <MMKV.cpp:225::initializeMMKV> root dir: /data/user/0/com.ram.ledger.deepseek/files/mmkv
+D/AndroidRuntime(23660): >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+I/AndroidRuntime(23660): Using default boot image
+I/AndroidRuntime(23660): Leaving lock profiling enabled

@@ -1,0 +1,4 @@
+android_jar=/home/ubuntu/android-sdk/platforms/android-36/android.jar
+javac_rc=0
+4
+8

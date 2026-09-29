@@ -1,0 +1,35 @@
+Success
+uninstall_rc=0
+Serving...
+All files should be loaded. Notifying the device.
+Performing Incremental Install
+Success
+Install command complete in 67172 ms
+install_rc=0
+Starting: Intent { cmp=com.ram.ledger.deepseek/.ram.RamHubActivity }
+Status: timeout
+LaunchState: UNKNOWN (-1)
+Activity: com.ram.ledger.deepseek/.ram.RamHubActivity
+WaitTime: 24944
+Complete
+start_rc=0
+=== path/pid ===
+package:/data/app/~~Ntq3Fddm-8ONnyxY-Zf6sQ==/com.ram.ledger.deepseek-H2m33ioGDbS3db_o7Q3v1w==/base.apk
+24236
+=== errors ===
+W/ziparchive(24236): Unable to open '/data/app/~~Ntq3Fddm-8ONnyxY-Zf6sQ==/com.ram.ledger.deepseek-H2m33ioGDbS3db_o7Q3v1w==/base.dm': No such file or directory
+W/ziparchive(24236): Unable to open '/data/app/~~Ntq3Fddm-8ONnyxY-Zf6sQ==/com.ram.ledger.deepseek-H2m33ioGDbS3db_o7Q3v1w==/base.dm': No such file or directory
+D/Launcher.Model(11461): package removed received com.ram.ledger.deepseek
+D/PackageUpdatedTask(11461): Removing app iconcom.ram.ledger.deepseek
+D/PersistedStoragePackageUninstalledReceiver(15059): Received android.intent.action.PACKAGE_FULLY_REMOVED for com.ram.ledger.deepseek for u0
+D/ModelWriter(11461): removing items from db . Reason: [removed because the corresponding package or component is removed. mOp=3 removedPackages=[com.ram.ledger.deepseek] removedComponents=[]]
+I/SafetyLabelChangedBroadcastReceiver(15059): received broadcast packageName: com.ram.ledger.deepseek, current user: UserHandle{0}, packageChangeEvent: NEW_INSTALL, intent user: UserHandle{0}
+D/nativeloader(24236): Configuring clns-6 for other apk /data/app/~~Ntq3Fddm-8ONnyxY-Zf6sQ==/com.ram.ledger.deepseek-H2m33ioGDbS3db_o7Q3v1w==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~Ntq3Fddm-8ONnyxY-Zf6sQ==/com.ram.ledger.deepseek-H2m33ioGDbS3db_o7Q3v1w==/lib/arm64:/data/app/~~Ntq3Fddm-8ONnyxY-Zf6sQ==/com.ram.ledger.deepseek-H2m33ioGDbS3db_o7Q3v1w==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.ram.ledger.deepseek
+V/WindowManager(11032): Sent Transition #11 createdAt=09-29 22:39:49.673 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=14 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.ram.ledger.deepseek/.ram.RamHubActivity } baseActivity=ComponentInfo{com.ram.ledger.deepseek/com.ram.ledger.deepseek.ram.RamHubActivity} topActivity=ComponentInfo{com.ram.ledger.deepseek/com.ram.ledger.deepseek.ram.RamHubActivity} origActivity=null realActivity=ComponentInfo{com.ram.ledger.deepseek/com.ram.ledger.deepseek.ram.RamHubActivity} numActivities=1 lastActiveTime=5616767 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{725b35e Task{1ec4544 #14 type=standard A=10196:com.ram.ledger.deepseek}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{48784f8 com.ram.ledger.deepseek.ram.RamHubActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+V/WindowManager(11032):     info={id=11 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{725b35e Task{1ec4544 #14 type=standard A=10196:com.ram.ledger.deepseek}}} m=OPEN f=NONE leash=Surface(name=Task=14)/@0xa7e1540 sb=Rect(0, 0 - 320, 640) eb=Rect(0, 0 - 320, 640) d=0},{WCT{RemoteToken{31924a3 Task{80e0ea8 #1 type=home}}} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0xa9d37d7 sb=Rect(0, 0 - 320, 640) eb=Rect(0, 0 - 320, 640) d=0}]}
+I/SdkSandboxManager(11032): No SDKs used. Skipping SDK data reconcilation for CallingInfo{mUid=10196, mPackageName='com.ram.ledger.deepseek, mAppProcessToken='null'}
+V/GraphicsEnvironment(24236): ANGLE GameManagerService for com.ram.ledger.deepseek: false
+V/GraphicsEnvironment(24236): com.ram.ledger.deepseek is not listed in per-application setting
+W/ledger.deepseek(24236): Verification of void com.ram.ledger.deepseek.App.onCreate() took 147.839ms (1061.96 bytecodes/s) (7120B approximate peak alloc)
+W/ledger.deepseek(24236): type=1400 audit(0.0:62): avc:  denied  { getattr } for  path="/dev/pmsg0" dev="tmpfs" ino=408 scontext=u:r:untrusted_app:s0:c196,c256,c512,c768 tcontext=u:object_r:pmsg_device:s0 tclass=chr_file permissive=0 app=com.ram.ledger.deepseek
+I/MMKV    (24236): <MMKV.cpp:225::initializeMMKV> root dir: /data/user/0/com.ram.ledger.deepseek/files/mmkv

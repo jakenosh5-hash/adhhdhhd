@@ -1,0 +1,46 @@
+=== required original classes ===
+present qv1.java
+present yk3.java
+present q5c.java
+present ib2.java
+present nd.java
+present au8.java
+present fy.java
+present x50.java
+present eh4.java
+present e93.java
+present is1.java
+present d6a.java
+=== bridge literals ===
+14: * No WebView or second HTTP client is created here. The class names and method
+42:        Object yk3Key = findMethod(keyFactory.getClass(), "mo1728b", 1).invoke(keyFactory, Class.forName("p000.yk3"));
+43:        Object client = findMethod(koin.getClass(), "m10573c", 3).invoke(koin, yk3Key, null, null);
+52:        Class<?> requestClass = Class.forName("p000.qv1");
+57:        Object flow = findMethod(client.getClass(), "m17997o", 2).invoke(client, request, null);
+58:        Class<?> collectorType = Class.forName("p000.eh4");
+59:        Class<?> continuationType = Class.forName("p000.e93");
+72:        findMethod(flow.getClass(), "mo457b", 2).invoke(flow, collector, continuation);
+82:        Object session = findMethod(ib2.getClass(), "m9044r", 0).invoke(ib2);
+84:        Object id = field(session, "f26927a");
+90:        Object hh6 = Class.forName("p000.nd").getMethod("m12351X").invoke(null);
+95:    /** Original SSE consumer receives z80 events; is1 wraps d6a(a=type,b=JSON). */
+99:        if (name.endsWith("is1")) {
+100:            Object d6a = field(event, "f17931a");
+102:            String json = String.valueOf(field(d6a, "f8793b"));
+=== original signatures ===
+/home/ubuntu/deepseek-reverse-complete/jadx/sources/p000/qv1.java:11:public final class qv1 implements cs1 {
+/home/ubuntu/deepseek-reverse-complete/jadx/sources/p000/qv1.java:92:    public qv1(String str, Integer num, String str2, ArrayList arrayList, boolean z, boolean z2, String str3, boolean z3, String str4, String str5, int i) {
+/home/ubuntu/deepseek-reverse-complete/jadx/sources/p000/yk3.java:7:public final class yk3 implements jx0, AutoCloseable {
+/home/ubuntu/deepseek-reverse-complete/jadx/sources/p000/yk3.java:104:    public final x50 m17997o(cs1 cs1Var, Long l) {
+/home/ubuntu/deepseek-reverse-complete/jadx/sources/p000/x50.java:7:public final class x50 implements dh4 {
+/home/ubuntu/deepseek-reverse-complete/jadx/sources/p000/x50.java:26:    public final Object mo457b(eh4 eh4Var, e93 e93Var) {
+/home/ubuntu/deepseek-reverse-complete/jadx/sources/p000/x50.java:42:                Object objMo457b = ((v50) obj2).mo457b(new n5(eh4Var, 4), e93Var);
+/home/ubuntu/deepseek-reverse-complete/jadx/sources/p000/x50.java:45:                Object objMo457b2 = ((eo8) obj2).f11307a.mo457b(new n5(eh4Var, 7), e93Var);
+/home/ubuntu/deepseek-reverse-complete/jadx/sources/p000/x50.java:124:                        if (((aj) obj2).mo457b(maVar, vh4Var) == ha3Var) {
+/home/ubuntu/deepseek-reverse-complete/jadx/sources/p000/e93.java:5:public interface e93 {
+/home/ubuntu/deepseek-reverse-complete/jadx/sources/p000/eh4.java:5:public interface eh4 {
+/home/ubuntu/deepseek-reverse-complete/jadx/sources/p000/ib2.java:26:public final class ib2 extends egb implements z66 {
+/home/ubuntu/deepseek-reverse-complete/jadx/sources/p000/ib2.java:1037:    public final ns m9044r() {
+=== source compile ===
+javac_rc=0
+class_files=8

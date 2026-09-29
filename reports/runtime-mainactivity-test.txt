@@ -1,0 +1,9 @@
+=== start output ===
+Starting: Intent { cmp=com.ram.ledger.deepseek/.MainActivity }
+Status: timeout
+LaunchState: UNKNOWN (-1)
+Activity: com.ram.ledger.deepseek/.MainActivity
+WaitTime: 27065
+Complete
+start_rc=0
+=== activity state ===

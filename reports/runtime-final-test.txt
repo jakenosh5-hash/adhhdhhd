@@ -1,0 +1,14 @@
+=== adb devices ===
+List of devices attached
+emulator-5554          device product:sdk_gphone64_x86_64 model:sdk_gphone64_x86_64 device:emu64xa transport_id:1
+
+=== uninstall old package ===
+Success
+=== install signed apk ===
+Serving...
+All files should be loaded. Notifying the device.
+Performing Incremental Install
+Success
+Install command complete in 80085 ms
+install_rc=
+RUNTIME_INSTALL_RC=

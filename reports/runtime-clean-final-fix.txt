@@ -1,0 +1,36 @@
+Success
+uninstall_rc=0
+Serving...
+All files should be loaded. Notifying the device.
+Performing Incremental Install
+Success
+Install command complete in 33820 ms
+install_rc=0
+Starting: Intent { cmp=com.ram.ledger.deepseek/.ram.RamHubActivity }
+Status: timeout
+LaunchState: UNKNOWN (-1)
+Activity: com.ram.ledger.deepseek/.ram.RamHubActivity
+WaitTime: 26337
+Complete
+start_rc=0
+=== installed/pid ===
+package:/data/app/~~o90Swp98ZyX_58Yvd7J69g==/com.ram.ledger.deepseek-8Szw5uUSgjStzTQSxVHNvw==/base.apk
+25364
+=== fatal/verification ===
+W/ziparchive(25364): Unable to open '/data/app/~~o90Swp98ZyX_58Yvd7J69g==/com.ram.ledger.deepseek-8Szw5uUSgjStzTQSxVHNvw==/base.dm': No such file or directory
+W/ziparchive(25364): Unable to open '/data/app/~~o90Swp98ZyX_58Yvd7J69g==/com.ram.ledger.deepseek-8Szw5uUSgjStzTQSxVHNvw==/base.dm': No such file or directory
+E/AppHibernationService(11032): Package com.ram.ledger.deepseek is not installed for user 0
+E/AppHibernationService(11032): Package com.ram.ledger.deepseek is not installed for any user
+D/nativeloader(25364): Configuring clns-6 for other apk /data/app/~~o90Swp98ZyX_58Yvd7J69g==/com.ram.ledger.deepseek-8Szw5uUSgjStzTQSxVHNvw==/base.apk. target_sdk_version=36, uses_libraries=, library_path=/data/app/~~o90Swp98ZyX_58Yvd7J69g==/com.ram.ledger.deepseek-8Szw5uUSgjStzTQSxVHNvw==/lib/arm64:/data/app/~~o90Swp98ZyX_58Yvd7J69g==/com.ram.ledger.deepseek-8Szw5uUSgjStzTQSxVHNvw==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.ram.ledger.deepseek
+E/AppHibernationService(11032): Package com.ram.ledger.deepseek is not installed for user 0
+V/GraphicsEnvironment(25364): ANGLE GameManagerService for com.ram.ledger.deepseek: false
+V/GraphicsEnvironment(25364): com.ram.ledger.deepseek is not listed in per-application setting
+E/AppHibernationService(11032): Package com.ram.ledger.deepseek is not installed for any user
+W/ledger.deepseek(25364): Verification of void com.ram.ledger.deepseek.App.onCreate() took 131.217ms (1196.49 bytecodes/s) (7120B approximate peak alloc)
+E/ActivityManager(11032):   55% 25364/com.ram.ledger.deepseek: 19% user + 35% kernel / faults: 7231 minor
+I/SdkSandboxManager(11032): No SDKs used. Skipping SDK data reconcilation for CallingInfo{mUid=10198, mPackageName='com.ram.ledger.deepseek, mAppProcessToken='null'}
+V/WindowManager(11032): Sent Transition #15 createdAt=09-29 22:44:50.472 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=16 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.ram.ledger.deepseek/.ram.RamHubActivity } baseActivity=ComponentInfo{com.ram.ledger.deepseek/com.ram.ledger.deepseek.ram.RamHubActivity} topActivity=ComponentInfo{com.ram.ledger.deepseek/com.ram.ledger.deepseek.ram.RamHubActivity} origActivity=null realActivity=ComponentInfo{com.ram.ledger.deepseek/com.ram.ledger.deepseek.ram.RamHubActivity} numActivities=1 lastActiveTime=5917374 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{774443 Task{4aedcc6 #16 type=standard A=10198:com.ram.ledger.deepseek}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{866aac0 com.ram.ledger.deepseek.ram.RamHubActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= false topActivityLetterboxed= false isFromDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 locusId=null displayAreaFeatureId=1 cameraCompatControlState=hidden}, remoteTransition = null, displayChange = null }
+V/WindowManager(11032):     info={id=15 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{RemoteToken{774443 Task{4aedcc6 #16 type=standard A=10198:com.ram.ledger.deepseek}}} m=OPEN f=NONE leash=Surface(name=Task=16)/@0xc332357 sb=Rect(0, 0 - 320, 640) eb=Rect(0, 0 - 320, 640) d=0},{WCT{RemoteToken{31924a3 Task{80e0ea8 #1 type=home}}} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0xa9d37d7 sb=Rect(0, 0 - 320, 640) eb=Rect(0, 0 - 320, 640) d=0}]}
+E/ActivityManager(11032):   84% 25364/com.ram.ledger.deepseek: 52% user + 31% kernel / faults: 878 minor
+W/ledger.deepseek(25364): type=1400 audit(0.0:76): avc:  denied  { getattr } for  path="/dev/pmsg0" dev="tmpfs" ino=408 scontext=u:r:untrusted_app:s0:c198,c256,c512,c768 tcontext=u:object_r:pmsg_device:s0 tclass=chr_file permissive=0 app=com.ram.ledger.deepseek
+I/MMKV    (25364): <MMKV.cpp:225::initializeMMKV> root dir: /data/user/0/com.ram.ledger.deepseek/files/mmkv

@@ -1,0 +1,44 @@
+/home/ubuntu/deepseek-hybrid-work/hybrid-unsigned.apk 23186521 bytes
+a44ef1c0967660a7827e6860bf21e27d6c96b7a7cf961a691ca15c70ca970c77  /home/ubuntu/deepseek-hybrid-work/hybrid-unsigned.apk
+    testing: okhttp3/internal/publicsuffix/publicsuffixes.gz   OK
+No errors detected in compressed data of /home/ubuntu/deepseek-hybrid-work/hybrid-unsigned.apk.
+classes.dex
+classes2.dex
+classes3.dex
+classes4.dex
+package: name='com.ram.ledger.deepseek' versionCode='277' versionName='2.6.0' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'
+targetSdkVersion:'36'
+7:    A: package="com.ram.ledger.deepseek" (Raw: "com.ram.ledger.deepseek")
+86:        A: http://schemas.android.com/apk/res/android:name(0x01010003)="com.ram.ledger.deepseek.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" (Raw: "com.ram.ledger.deepseek.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION")
+89:        A: http://schemas.android.com/apk/res/android:name(0x01010003)="com.ram.ledger.deepseek.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" (Raw: "com.ram.ledger.deepseek.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION")
+100:        A: http://schemas.android.com/apk/res/android:name(0x01010003)="com.ram.ledger.deepseek.App" (Raw: "com.ram.ledger.deepseek.App")
+114:            A: http://schemas.android.com/apk/res/android:name(0x01010003)="com.ram.ledger.deepseek.wxapi.WXEntryActivity" (Raw: "com.ram.ledger.deepseek.wxapi.WXEntryActivity")
+116:            A: http://schemas.android.com/apk/res/android:taskAffinity(0x01010012)="com.ram.ledger.deepseek" (Raw: "com.ram.ledger.deepseek")
+119:            A: http://schemas.android.com/apk/res/android:name(0x01010003)="com.ram.ledger.deepseek.system.AppFileProvider" (Raw: "com.ram.ledger.deepseek.system.AppFileProvider")
+121:            A: http://schemas.android.com/apk/res/android:authorities(0x01010018)="com.ram.ledger.deepseek.provider" (Raw: "com.ram.ledger.deepseek.provider")
+127:            A: http://schemas.android.com/apk/res/android:name(0x01010003)="com.ram.ledger.deepseek.system.ShareResultReceiver" (Raw: "com.ram.ledger.deepseek.system.ShareResultReceiver")
+145:            A: http://schemas.android.com/apk/res/android:name(0x01010003)="com.ram.ledger.deepseek.ram.RamHubActivity" (Raw: "com.ram.ledger.deepseek.ram.RamHubActivity")
+151:            A: http://schemas.android.com/apk/res/android:name(0x01010003)="com.ram.ledger.deepseek.finance.DebtLedgerActivity" (Raw: "com.ram.ledger.deepseek.finance.DebtLedgerActivity")
+157:            A: http://schemas.android.com/apk/res/android:name(0x01010003)="com.ram.ledger.deepseek.MainActivity" (Raw: "com.ram.ledger.deepseek.MainActivity")
+175:                    A: http://schemas.android.com/apk/res/android:scheme(0x01010027)="com.ram.ledger.deepseek" (Raw: "com.ram.ledger.deepseek")
+197:            A: http://schemas.android.com/apk/res/android:name(0x01010003)="com.ram.ledger.deepseek.ShareProxyActivity" (Raw: "com.ram.ledger.deepseek.ShareProxyActivity")
+199:            A: http://schemas.android.com/apk/res/android:taskAffinity(0x01010012)="com.ram.ledger.deepseek.entry_proxy" (Raw: "com.ram.ledger.deepseek.entry_proxy")
+423:                    A: http://schemas.android.com/apk/res/android:name(0x01010003)="com.ram.ledger.deepseek.action.NEW_CHAT" (Raw: "com.ram.ledger.deepseek.action.NEW_CHAT")
+425:                    A: http://schemas.android.com/apk/res/android:name(0x01010003)="com.ram.ledger.deepseek.action.OPEN_CHAT" (Raw: "com.ram.ledger.deepseek.action.OPEN_CHAT")
+427:                    A: http://schemas.android.com/apk/res/android:name(0x01010003)="com.ram.ledger.deepseek.action.CAMERA_ASK" (Raw: "com.ram.ledger.deepseek.action.CAMERA_ASK")
+429:                    A: http://schemas.android.com/apk/res/android:name(0x01010003)="com.ram.ledger.deepseek.action.PICTURE_ASK" (Raw: "com.ram.ledger.deepseek.action.PICTURE_ASK")
+434:            A: http://schemas.android.com/apk/res/android:name(0x01010003)="com.ram.ledger.deepseek.ui.pages.table.TablePreviewActivity" (Raw: "com.ram.ledger.deepseek.ui.pages.table.TablePreviewActivity")
+440:            A: http://schemas.android.com/apk/res/android:name(0x01010003)="com.ram.ledger.deepseek.services.tile.OpenChatTileService" (Raw: "com.ram.ledger.deepseek.services.tile.OpenChatTileService")
+449:            A: http://schemas.android.com/apk/res/android:name(0x01010003)="com.ram.ledger.deepseek.services.tile.CameraAskTileService" (Raw: "com.ram.ledger.deepseek.services.tile.CameraAskTileService")
+458:            A: http://schemas.android.com/apk/res/android:name(0x01010003)="com.ram.ledger.deepseek.services.tile.PictureAskTileService" (Raw: "com.ram.ledger.deepseek.services.tile.PictureAskTileService")
+472:            A: http://schemas.android.com/apk/res/android:name(0x01010003)="com.ram.ledger.deepseek.services.foreground.media.MediaPlaybackForegroundService" (Raw: "com.ram.ledger.deepseek.services.foreground.media.MediaPlaybackForegroundService")
+479:            A: http://schemas.android.com/apk/res/android:authorities(0x01010018)="com.ram.ledger.deepseek.cn.fly.FlyProvider" (Raw: "com.ram.ledger.deepseek.cn.fly.FlyProvider")
+503:            A: http://schemas.android.com/apk/res/android:authorities(0x01010018)="com.ram.ledger.deepseek.jlatexmathinitprovider" (Raw: "com.ram.ledger.deepseek.jlatexmathinitprovider")
+538:            A: http://schemas.android.com/apk/res/android:authorities(0x01010018)="com.ram.ledger.deepseek.androidx-startup" (Raw: "com.ram.ledger.deepseek.androidx-startup")
+606:            A: http://schemas.android.com/apk/res/android:authorities(0x01010018)="com.ram.ledger.deepseek.apm" (Raw: "com.ram.ledger.deepseek.apm")
+stage-present com/ram/ledger/deepseek/ram/RamHubActivity.smali
+stage-present com/ram/ledger/deepseek/ram/RamDatabase.smali
+stage-present com/ram/ledger/deepseek/ram/RamCommandRouter.smali
+stage-present com/ram/ledger/deepseek/bridge/DeepSeekNativeBridge.smali
+dex-present com/ram/ledger/deepseek/ram/RamHubActivity.smali
+STATIC_AUDIT=PASS
